@@ -42,7 +42,7 @@ b5.addEventListener("mouseover" , function(){
 //js javascript
 
 js.addEventListener("mouseover" , function(){
-    js.style.backgroundImage = "url(/images/js.png";
+    js.style.backgroundImage = "url(images/js.png";
     js.style.backgroundRepeat = "no-repeat";
     js.style.backgroundPosition = "center";
     js.style.backgroundSize = "250px";

@@ -8,7 +8,7 @@
 
 header{
     content: "";
-    background-image: url(/images/code.jpg);
+    background-image: url(images/code.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -186,7 +186,7 @@ color: black;
 /* studii */
 
 #studii {
-    background-image: url(/images/1.jpg);
+    background-image: url(images/1.jpg);
     background-position: center;
     background-size: cover;
     padding-bottom: 20%;
@@ -247,7 +247,7 @@ footer a:hover {
 
 #fac::before{
     content: "";
-    background-image: url(/images/facebook.jpg);
+    background-image: url(images/facebook.jpg);
     background-size: 20px;
     width: 20px;
     height: 20px;

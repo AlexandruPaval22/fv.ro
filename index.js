@@ -42,7 +42,7 @@ b5.addEventListener("mouseover" , function(){
 //js javascript
 
 js.addEventListener("mouseover" , function(){
-    js.style.backgroundImage = "url(images/js.png";
+    js.style.backgroundImage = "url(images/js.png)";
     js.style.backgroundRepeat = "no-repeat";
     js.style.backgroundPosition = "center";
     js.style.backgroundSize = "250px";
@@ -53,7 +53,7 @@ js.addEventListener("mouseover" , function(){
 //rs responsive
 
 rs.addEventListener("mouseover" , function(){
-    rs.style.backgroundImage = "url(images/responsive.jpg";
+    rs.style.backgroundImage = "url(images/responsive.jpg)";
     rs.style.backgroundRepeat = "no-repeat";
     rs.style.backgroundPosition = "center";
     rs.style.backgroundSize = "260px";
@@ -63,7 +63,7 @@ rs.addEventListener("mouseover" , function(){
 //wordpress
 
 wp.addEventListener("mouseover" , function(){
-    wp.style.backgroundImage = "url(images/wordpress.png";
+    wp.style.backgroundImage = "url(images/wordpress.png)";
     wp.style.backgroundRepeat = "no-repeat";
     wp.style.backgroundPosition = "center";
     wp.style.backgroundSize = "230px";
@@ -73,7 +73,7 @@ wp.addEventListener("mouseover" , function(){
 //php
 
 php.addEventListener("mouseover" , function(){
-    php.style.backgroundImage = "url(images/php.png";
+    php.style.backgroundImage = "url(images/php.png)";
     php.style.backgroundRepeat = "no-repeat";
     php.style.backgroundPosition = "center";
     php.style.backgroundSize = "270px";

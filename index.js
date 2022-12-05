@@ -9,7 +9,7 @@ let php = document.getElementById("php");
 // HTML
 
 html.addEventListener("mouseover" , function(){
-    html.style.backgroundImage = "url(/images/html.jpg)";
+    html.style.backgroundImage = "url(images/html.jpg)";
     html.style.backgroundRepeat = "no-repeat";
     html.style.backgroundPosition = "center";
     html.style.backgroundSize = "cover";
@@ -20,7 +20,7 @@ html.addEventListener("mouseover" , function(){
 // CSS
 
 css.addEventListener("mouseover" , function(){
-    css.style.backgroundImage = "url(/images/css.png)";
+    css.style.backgroundImage = "url(images/css.png)";
     css.style.backgroundRepeat = "no-repeat";
     css.style.backgroundPosition = "center";
     css.style.backgroundSize = "cover";
@@ -31,7 +31,7 @@ css.addEventListener("mouseover" , function(){
 //boostrap
 
 b5.addEventListener("mouseover" , function(){
-    b5.style.backgroundImage = "url(/images/boostrap.jpg)";
+    b5.style.backgroundImage = "url(images/boostrap.jpg)";
     b5.style.backgroundRepeat = "no-repeat";
     b5.style.backgroundPosition = "center";
     b5.style.backgroundSize = "cover";
@@ -53,7 +53,7 @@ js.addEventListener("mouseover" , function(){
 //rs responsive
 
 rs.addEventListener("mouseover" , function(){
-    rs.style.backgroundImage = "url(/images/responsive.jpg";
+    rs.style.backgroundImage = "url(images/responsive.jpg";
     rs.style.backgroundRepeat = "no-repeat";
     rs.style.backgroundPosition = "center";
     rs.style.backgroundSize = "260px";
@@ -63,7 +63,7 @@ rs.addEventListener("mouseover" , function(){
 //wordpress
 
 wp.addEventListener("mouseover" , function(){
-    wp.style.backgroundImage = "url(/images/wordpress.png";
+    wp.style.backgroundImage = "url(images/wordpress.png";
     wp.style.backgroundRepeat = "no-repeat";
     wp.style.backgroundPosition = "center";
     wp.style.backgroundSize = "230px";
@@ -73,7 +73,7 @@ wp.addEventListener("mouseover" , function(){
 //php
 
 php.addEventListener("mouseover" , function(){
-    php.style.backgroundImage = "url(/images/php.png";
+    php.style.backgroundImage = "url(images/php.png";
     php.style.backgroundRepeat = "no-repeat";
     php.style.backgroundPosition = "center";
     php.style.backgroundSize = "270px";
@@ -88,11 +88,11 @@ php.addEventListener("mouseover" , function(){
 function changeBg(){
 
 const images = [
-    "url(/images/1.jpg)",
-    "url(/images/2.jpg)",
-    "url(/images/3.jpg)",
-    "url(/images/4.jpg)",
-    "url(/images/5.jpg)",
+    "url(images/1.jpg)",
+    "url(images/2.jpg)",
+    "url(images/3.jpg)",
+    "url(images/4.jpg)",
+    "url(images/5.jpg)",
 ]
 
 const studied = document.getElementById("studii");

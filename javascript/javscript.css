@@ -1,0 +1,56 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+
+a {
+    cursor: pointer;
+}
+
+nav {
+      background-color: rgb(29, 24, 24);
+      position: sticky;
+      top: 0;
+      padding: 0.1% 0;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+}
+
+nav li {
+    margin: 0 2%;
+    list-style-type: none;
+
+}  
+
+nav a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(148, 22, 43);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: rgb(231, 104, 125);
+}
+
+nav a:hover::after {
+    width: 100%;
+}
